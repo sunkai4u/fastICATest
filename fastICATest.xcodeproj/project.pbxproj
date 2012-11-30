@@ -1,0 +1,221 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B1B6382D1668C1DB00B11457 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B1B6382C1668C1DB00B11457 /* main.cpp */; };
+		B1B6382F1668C1DB00B11457 /* fastICATest.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = B1B6382E1668C1DB00B11457 /* fastICATest.1 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		B1B638271668C1DB00B11457 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				B1B6382F1668C1DB00B11457 /* fastICATest.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		B1B638291668C1DB00B11457 /* fastICATest */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = fastICATest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B1B6382C1668C1DB00B11457 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		B1B6382E1668C1DB00B11457 /* fastICATest.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = fastICATest.1; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B1B638261668C1DB00B11457 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B1B638201668C1DB00B11457 = {
+			isa = PBXGroup;
+			children = (
+				B1B6382B1668C1DB00B11457 /* fastICATest */,
+				B1B6382A1668C1DB00B11457 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B1B6382A1668C1DB00B11457 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B1B638291668C1DB00B11457 /* fastICATest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B1B6382B1668C1DB00B11457 /* fastICATest */ = {
+			isa = PBXGroup;
+			children = (
+				B1B6382C1668C1DB00B11457 /* main.cpp */,
+				B1B6382E1668C1DB00B11457 /* fastICATest.1 */,
+			);
+			path = fastICATest;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B1B638281668C1DB00B11457 /* fastICATest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B1B638321668C1DB00B11457 /* Build configuration list for PBXNativeTarget "fastICATest" */;
+			buildPhases = (
+				B1B638251668C1DB00B11457 /* Sources */,
+				B1B638261668C1DB00B11457 /* Frameworks */,
+				B1B638271668C1DB00B11457 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = fastICATest;
+			productName = fastICATest;
+			productReference = B1B638291668C1DB00B11457 /* fastICATest */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B1B638211668C1DB00B11457 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = VisGenius;
+			};
+			buildConfigurationList = B1B638241668C1DB00B11457 /* Build configuration list for PBXProject "fastICATest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B1B638201668C1DB00B11457;
+			productRefGroup = B1B6382A1668C1DB00B11457 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B1B638281668C1DB00B11457 /* fastICATest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B1B638251668C1DB00B11457 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1B6382D1668C1DB00B11457 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		B1B638301668C1DB00B11457 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		B1B638311668C1DB00B11457 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		B1B638331668C1DB00B11457 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B1B638341668C1DB00B11457 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B1B638241668C1DB00B11457 /* Build configuration list for PBXProject "fastICATest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B1B638301668C1DB00B11457 /* Debug */,
+				B1B638311668C1DB00B11457 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B1B638321668C1DB00B11457 /* Build configuration list for PBXNativeTarget "fastICATest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B1B638331668C1DB00B11457 /* Debug */,
+				B1B638341668C1DB00B11457 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B1B638211668C1DB00B11457 /* Project object */;
+}
